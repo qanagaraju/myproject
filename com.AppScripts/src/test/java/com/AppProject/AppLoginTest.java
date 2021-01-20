@@ -16,9 +16,11 @@ import com.AppUtilities.ConfigReader;
 
 
 
-public class AppLoginTest extends AppBaseClass {
+public class AppLoginTest {
 	public static WebDriver driver;
+	public static BrowserFactory browser;
 	public static ConfigReader config;
+	public static AppObjects Apploginpage;
 	
 	@BeforeSuite
 	public void AppSuite() {
