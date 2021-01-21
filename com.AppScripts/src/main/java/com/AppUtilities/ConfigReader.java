@@ -39,8 +39,18 @@ public class ConfigReader {
 		return prop.getProperty("username");
 	}
 	
+	
+	public String getinvalidusername() {
+		return prop.getProperty("username1");
+	}
+	
 	public String getpassword() {
 		return prop.getProperty("password");
+	}
+	
+	
+	public String signoutelement() {
+		return prop.getProperty("signout");
 	}
 	
 	
@@ -58,8 +68,8 @@ public class ConfigReader {
 	}
 	
 	
-	public String getHomeLink() {
-		return prop.getProperty("apphomelink");
+	public String getHomeLinkelement() {
+		return prop.getProperty("helplink");
 	}
 	
 	

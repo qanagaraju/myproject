@@ -50,6 +50,9 @@ public void getpassword(String pw) {
 	}
 
 	
+public void clicksignout() {
 	
+	driver.findElement(By.xpath(repo.signoutelement())).click();
+}
 
 }
