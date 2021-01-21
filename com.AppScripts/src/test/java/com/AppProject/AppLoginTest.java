@@ -33,6 +33,7 @@ public class AppLoginTest {
 @BeforeTest
 public void launchBrowser() {
 	 driver=BrowserFactory.getBrowser(config.getbrowsername(),config.getbrowserurl());
+	 System.out.println("launching browser");
 }
 	
 @Test
@@ -41,10 +42,13 @@ public void verifylogin() {
 	Apploginpage=new AppObjects(driver);
 	
 	Apploginpage.getusername(config.getusername());
+	System.out.println("Verify user name");
+	
 	Apploginpage.getpassword(config.getpassword());
+	System.out.println("verify password");
 	
 	Apploginpage.clickloginbutton();
-	
+	System.out.println("verify button");
 	
 	
 }
@@ -54,6 +58,7 @@ public void verifylogin() {
 @AfterTest
 public void closeBrowser() {
 	browser.closebrowser();
+	System.out.println("Closing browser");
 }
 
 	
