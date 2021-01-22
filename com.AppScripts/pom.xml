@@ -28,6 +28,14 @@
     </dependency>
 
 
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+
+
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -47,6 +55,14 @@
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
     <version>2.6</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.github.bogdanlivadariu/selenium-screenshot-watcher -->
+<dependency>
+    <groupId>com.github.bogdanlivadariu</groupId>
+    <artifactId>selenium-screenshot-watcher</artifactId>
+    <version>1.0.7</version>
 </dependency>
 
 
